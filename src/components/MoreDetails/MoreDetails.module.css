@@ -1,0 +1,32 @@
+.wholeCard {
+	margin:100px auto 0 auto;
+	height:500px;
+	width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container {
+	text-align: center;
+	margin:0;
+  padding: 10px 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: auto;
+	}
+
+
+@media screen and (max-width: 600px) {
+.wholeCard {
+	margin:10px auto 0 auto;
+	height:300px;
+	width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.container {
+	text-align: center;
+	height: 300px;
+}
+   }
